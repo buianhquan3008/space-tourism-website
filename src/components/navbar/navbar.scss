@@ -1,0 +1,33 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.navbar {
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40.7742px);
+  display: flex;
+  justify-content: flex-end;
+  padding: 40px 165px;
+  gap: 50px;
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  height: 20px;
+  text-transform: uppercase;
+
+  span {
+    font-weight: bold;
+  }
+
+  h3 {
+    font-weight: 300;
+  }
+}
