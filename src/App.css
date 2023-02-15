@@ -5,4 +5,5 @@ body {
 
 .App {
   height: 100vh;
+  background: url('../public/assets/home/background-home-desktop.jpg');
 }
